@@ -56,5 +56,17 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
+}
 
+.featured-image {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: space-evenly;
+}
+
+.feature-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
 }
