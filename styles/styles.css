@@ -50,12 +50,13 @@ header {
     margin-top: 100px;
 }
 
-.Featured-description {
+.featured-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
+    text-decoration: underline;
 }
 
 .featured-image {
@@ -69,4 +70,29 @@ header {
     background: rgba(167, 33, 98, 0.15);
     width: 310px;
     height: 428px;
+}
+
+.feature-bg {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 920px;
+    height: 100px;
+    margin: 100px auto;
+    padding: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature-icon {
+    width: 88px;
+    height: 88px;
+    align-items: center;
+}
+
+.featured-description-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 17px;
 }
