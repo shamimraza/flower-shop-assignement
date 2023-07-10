@@ -43,6 +43,8 @@ header {
     width: 560px;
 }
 
+/* feature section */
+
 .featured-title {
     color: #272727;
     text-align: center;
@@ -96,3 +98,56 @@ header {
     text-align: center;
     font-size: 17px;
 }
+
+/* sales up */
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1518px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.span-color {
+    color: red;
+}
+
+.sales-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    width: 537px;
+    height: 48px;
+}
+
+.sales-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 594px;
+}
+
+.sales-img {
+    width: 318px;
+    height: 420px;
+}
+
+.btn-primary-sales {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 25px;
+    color: #FFF;
+    border: 0;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+}
+/* Instagram section */
