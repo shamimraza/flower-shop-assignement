@@ -58,7 +58,14 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
-    /* text-decoration: underline; */
+}
+.featured-description-underline {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-decoration: underline;
 }
 
 .featured-image {
@@ -113,7 +120,7 @@ header {
 }
 
 .span-color {
-    color: red;
+    color: #E55473;
 }
 
 .sales-title {
@@ -181,7 +188,7 @@ header {
     width: 1060px;
     height: 300px;
     margin: 0 auto;
-    /* display: flex; */
+    margin-bottom: 50px;
 }
 
 .deal-title {
@@ -207,4 +214,35 @@ header {
     height: 40px;
     border: 0px;
     margin-left: 230px;
+}
+
+/* footer section */
+footer {
+    background-color: #111010;
+    width: 1518px;
+    height: 300px;
+    color: #FFF;
+}
+
+.footer-title {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 350;
+}
+
+.footer-description-title {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
 }
