@@ -58,7 +58,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .featured-image {
@@ -150,4 +150,21 @@ header {
     align-items: center;
     text-align: center;
 }
+
 /* Instagram section */
+.Instagram-section {
+    width: 1510px;
+    height: 150px;
+}
+
+.instragram-icon {
+    width: 242px;
+    height: 246px;
+    margin-bottom: 50px;
+}
+.instragram-icon-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 200px;
+}
