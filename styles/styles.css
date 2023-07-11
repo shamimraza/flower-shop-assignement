@@ -53,11 +53,11 @@ header {
 }
 
 .featured-description {
+    text-align: center;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 15px;
+    font-size: 17px;
+    margin-top: 10px;
 }
 .featured-description-underline {
     color: rgba(39, 39, 39, 0.60);
@@ -95,8 +95,8 @@ header {
 }
 
 .feature-icon {
-    width: 88px;
-    height: 88px;
+    width: 93px;
+    height: 93px;
     align-items: center;
 }
 
