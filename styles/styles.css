@@ -11,7 +11,7 @@ header {
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .header-title {
@@ -95,9 +95,10 @@ header {
 }
 
 .feature-icon {
-    width: 93px;
-    height: 93px;
-    align-items: center;
+    width: 88px;
+    height: 88px;
+    display: flex;
+   justify-content: center;
 }
 
 .featured-description-title {
@@ -116,7 +117,12 @@ header {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 50px;
+}
+.sign-up{
+    display: flex;
+   justify-content: center;
 }
 
 .span-color {
